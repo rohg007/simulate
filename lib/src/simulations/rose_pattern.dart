@@ -183,6 +183,7 @@ class _RosePatternState extends State<RosePattern> {
         child: Stack(
           children: <Widget>[
             Rose(
+              key: globalKey,
               n: _n,
               d: _d,
               offset: offset,
